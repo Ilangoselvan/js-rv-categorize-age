@@ -1,0 +1,51 @@
+<!doctype.html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="css">
+	<meta name="keywords" content="css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>review-categorize-age</title>
+</head>
+<body>
+
+
+
+<script>
+var a=prompt("Enter first person age");
+var b=prompt("Enter second person age");
+var c=prompt("Enter third person age");
+
+
+
+if (a>b && a>c)
+{
+	if(b>c){
+		console.log("A is oldest C is youngest");
+	}
+	else{
+		console.log("A is oldest b is youngest");
+	}
+}
+else if (b>a && b>c)
+{
+	if(a>c){
+		console.log("B is oldest C is youngest");
+	}
+	else{
+		console.log("B is oldest A is youngest");
+	}
+}
+else if (c>a && c>b)
+{
+	if(a>b){
+		console.log("C is oldest B is youngest");
+	}
+	else{
+		console.log("C is oldest A is youngest");
+	}
+}
+
+</script>
+</body>
+</html>
